@@ -44,7 +44,9 @@
     "style-dictionary": "^2.10.0"
   },
   "bit": {
-    "env": {},
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.18"
+    },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "yarn"
   }
