@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./button.scss";
 
-export const Button = (props) => {
+function Button(props) {
   return (
     <button
       className={`c-button c-button-${props.variant} ${
@@ -14,8 +14,10 @@ export const Button = (props) => {
       {props.children}
     </button>
   );
-};
+}
 
 Button.propTypes = {
   variant: PropTypes.oneOf(["contained", "text", "outlined"]),
 };
+
+export default Button;
