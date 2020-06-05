@@ -2,7 +2,7 @@
   "color": {
     "brand": {
       "primary": {
-        "value": "purple",
+        "value": "blue",
         "type": "color",
         "comment": "this is a comment"
       },
