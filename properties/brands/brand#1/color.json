@@ -1,0 +1,21 @@
+{
+  "color": {
+    "brand": {
+      "primary": {
+        "value": "purple",
+        "type": "color",
+        "comment": "this is a comment"
+      },
+      "secondary": {
+        "value": "red",
+        "type": "color",
+        "comment": "this one is a comment too"
+      },
+      "tertiary": {
+        "value": "#ff00ff",
+        "type": "color",
+        "comment": "this one is a comment too"
+      }
+    }
+  }
+}
