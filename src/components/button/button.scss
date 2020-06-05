@@ -1,0 +1,61 @@
+@import "../../../build/scss/variables";
+
+.c-button {
+  color: $color-font-base;
+  padding: 6px 16px;
+  font-size: $size-font-small;
+  font-family: $font-family-base;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: $font-family-base;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.c-button-contained {
+  color: $color-font-base;
+  background-color: $color-base-gray-light;
+  height: $button-height-small;
+  border-radius: $button-border-radius;
+}
+.c-button-contained-primary {
+  color: $color-base-white;
+  background-color: $color-brand-primary;
+}
+.c-button-contained-secondary {
+  color: $color-base-white;
+  background-color: $color-brand-secondary;
+}
+
+.c-button-text {
+  color: $color-font-base;
+  cursor: pointer;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  border-radius: 0;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.c-button-text-primary {
+  color: $color-brand-primary;
+}
+.c-button-text-secondary {
+  color: $color-brand-secondary;
+}
+
+.c-button-outlined {
+  border: 1px solid $color-base-black;
+  border-radius: $button-border-radius;
+}
+.c-button-outlined-primary {
+  color: $color-brand-primary;
+  border-color: $color-brand-primary;
+}
+.c-button-outlined-tertiary {
+  color: $color-brand-tertiary;
+  border-color: $color-brand-tertiary;
+}
