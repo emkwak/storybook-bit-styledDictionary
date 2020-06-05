@@ -50,6 +50,7 @@
 .c-button-outlined {
   border: 1px solid $color-base-black;
   border-radius: $button-border-radius;
+  background: transparent;
 }
 .c-button-outlined-primary {
   color: $color-brand-primary;
